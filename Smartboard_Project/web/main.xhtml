@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <!--Created by Brandon Blank-->
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Facelet Title</title>
+        <script type = "text/javascript" src = "canvas/CanvasMain.js"></script>
+        <h:outputStylesheet name="/css/ProjectStyleSheet.css"/>
+        <h:outputStylesheet name="/css/Login.css"/>      
+        <h:outputStylesheet rendered="#{theme.currentTheme eq 'Alternate'}" name="css/AlternativeTheme.css"/>          
+        <h:outputStylesheet rendered="#{theme.currentTheme eq 'Normal'}" name="css/NormalTheme.css"/>           
+    </h:head>
+
+    <h:body>
+        
+        <h:panelGrid class="tab" columns="2">
+            <h:form enctype="multipart/form-data">
+                <p:growl id="messages" showDetail="true" />
+                <p:tieredMenu  style="width:220px"> 
+                    <p:menuitem value="Main"/>        
+                    <p:submenu label="Settings">
+                        <p:menuitem value="#{theme.getTheme()}" actionListener="#{theme.setCurrentTheme()}" onclick="location.reload()"/>
+                    </p:submenu>             
+                    <p:menuitem value="Log off" outcome="/index"/>
+                    <p:menuitem value="Open" outcome="/open" />                             
+                    <p:menuitem value="Create Project" outcome="/CreateProject" /> 
+                </p:tieredMenu>
+            </h:form>            
+            <canvas id="myCanvas" width="650" height="250" style="border:1px solid #00000F;"></canvas>
+        </h:panelGrid>
+    </h:body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+        <!--Created by Brandon Blank-->
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Facelet Title</title>
+        <script type = "text/javascript" src = "canvas/Canvas.js"></script>
+        <script type = "text/javascript" src = "canvas/CanvasController.js"></script>
+        <h:outputStylesheet name="css/ProjectStyleSheet.css"/>
+        <h:outputStylesheet name="css/Login.css"/>
+        <h:outputStylesheet id="Theme1" rendered="#{theme.currentTheme eq 'Alternate'}" name="css/AlternativeTheme.css"/>          
+        <h:outputStylesheet id="theme2" rendered="#{theme.currentTheme eq 'Normal'}" name="css/NormalTheme.css"/>  
+
+    </h:head>
+
+    <h:body onload="openFunction()">
+
+        <input type="hidden" id="list1" value="#{projectController.getProjectSlides(projectTracker.getProjectID())}" />
+
+
+        <p:growl id="growl" showDetail="true" />
+        <h:form id="nav" prependId="false" enctype="multipart/form-data">
+            <h:panelGrid columns="2">
+
+                <h:commandButton id="Previous" class="buttons" value="Previous" onclick="previous()"  >
+                    <f:ajax  render="@none"/>
+                </h:commandButton>
+                <h:commandButton id="Next" class="buttons" value="Next" onclick="forward()">
+                    <h:inputHidden id="content" value="#{slideController.selected.content}" />
+                    <h:inputHidden id="ProjectID" value="#{slideController.selected.PID}" />
+
+                    <input type="hidden" id="curProjectID" value="#{projectTracker.getProjectID()}" />
+                    <input type="hidden" id="LatestProjectID" value="#{projectController.getLatestProject()}"/>
+
+                    <f:ajax execute="content ProjectID" listener="#{slideController.create}"/>
+
+                    <h:panelGroup id="condition" rendered="#{projectTracker.getProjectID() eq 0}">
+                        <input type="hidden" id="update" value="#{projectTracker.setProjectID(projectController.getLatestProject())}" />
+                    </h:panelGroup>
+                    <p id="slidecount">Slide 
+                        <a id = "countDisplay"> </a></p> 
+                </h:commandButton>
+
+
+                <h:form enctype="multipart/form-data" prependId="false">
+                    <p:growl id="messages" showDetail="true" />
+                    <p:tieredMenu  style="width:220px"> 
+                        <p:menuitem value="Main" outcome="/main"/>       
+                        <p:submenu label="Settings">
+                            <p:menuitem value="#{theme.getTheme()}" actionListener="#{theme.setCurrentTheme()}"/>
+                        </p:submenu>             
+                        <p:menuitem value="Log off" outcome="/index"/>
+                        <p:menuitem value="Open" outcome="/open" />                        
+                        <p:menuitem value="Create Project"/> 
+                    </p:tieredMenu>
+
+                    <h:commandButton id="Quit" class="buttons" value="Quit" onclick="save();end()" action="main?faces-redirect=true" actionListener="#{slideController.create}" style="width:230px" >
+                        <h:inputHidden id="ProProjectID" value="#{projectController.selected.projectID}" />
+                        <h:inputHidden id="ProProjectName" value="#{projectController.selected.projectName}" />
+                        <h:inputHidden id="content2" value="#{slideController.selected.content}" />
+                        <f:actionListener binding="#{projectTracker.setProjectID(0)}"/>
+                        <f:ajax execute="content2 ProProjectID ProProjectName" listener="#{projectController.create}" render="Quit"/>
+                    </h:commandButton>            
+                </h:form>            
+                <canvas id="myCanvas" width="650" height="250" style="border:1px solid #00000F;"></canvas>
+            </h:panelGrid>
+
+
+        </h:form>
+    </h:body>
+</html>

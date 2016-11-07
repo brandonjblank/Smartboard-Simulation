@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6-Mar-2016, 4:07:36 PM
+    Author     : brandon
+*/
+
+table
+{
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+tr, td 
+{
+padding-left:0; 
+padding-top:0; 
+
+padding-right: 5px;
+vertical-align: top;
+}
+
+.tab 
+{
+    height: 500px;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 31px;
+}
+
+ul 
+{
+display:block;    
+list-style-type: none;
+white-space: nowrap;
+width: auto;
+}
+
+ul.ui-menu 
+{
+display:block;    
+list-style-type: none;
+}
+
+.buttons:active
+{
+    border:none;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 90px;
+  
+}
+.buttons
+{
+    border:none;
+    width: 90px;
+    background-color: #DEDADA;
+}
+
+p
+{
+    margin: 0px;
+}
+    
+label
+{
+    text-align: center;
+    width: 90px;
+    display: inline-block;
+    background-color: #DEDADA;
+
+}
+
+label:active
+{
+    border:none;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 90px;
+}
+
+#space
+{
+    padding-top: 1px;
+}
+
+#selectionArea
+{
+    display: inline-table;
+    width: 650px;
+    height: 250px;
+    border: 1px solid #00000F;
+}
+
+.innerTable
+{
+    background: none;
+}
+
+#countDisplay
+{
+    text-align: right;
+}
+
+#slidecount 
+{
+display: inline-block;
+text-align: right;
+float: right;
+
+}
+
+#Previous
+{
+    text-align: center;
+    float: right;
+}
