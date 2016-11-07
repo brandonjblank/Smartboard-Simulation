@@ -1,0 +1,42 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1003" measuredH="349" mockupW="790" mockupH="261">
+  <controls>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextArea" x="285" y="128" w="686" h="172" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::RadioButton" x="270" y="300" w="-1" h="-1" measuredW="52" measuredH="22" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>https%3A//universityofwinnipeg.mybalsamiq.com/projects</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2257%2C212%2C109%2C234%22%20href%3D%22https%3A//universityofwinnipeg.mybalsamiq.com/projects%22%20alt%3D%22https%3A//universityofwinnipeg.mybalsamiq.com/projects%22%20id%3D%2218%22%20target%3D%22_blank%22/%3E</map>
+        <text>Power</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextInput" x="337" y="322" w="-1" h="-1" measuredW="40" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>USB</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::TextInput" x="377" y="322" w="-1" h="-1" measuredW="40" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>USB</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="213" y="88" w="790" h="249" measuredW="200" measuredH="152" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Brandon%20and%20Brandon%20Main%20Menu%26bm%3BBrandon%20and%20Brandon%20Main%20Menu.bmml%26bm%3BBrandon%20and%20Brandon%20Main%20Menu.bmml%26bm%3BBrandon%20and%20Brandon%20Main%20Menu.bmml%2C%2Chttps%3A//universityofwinnipeg.mybalsamiq.com/projects</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C20%2C42%2C50%22%20href%3D%22Brandon%2520and%2520Brandon%2520Main%2520Menu.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Main%20Menu%22%20id%3D%2225%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C76%2C42%2C106%22%20href%3D%22https%3A//universityofwinnipeg.mybalsamiq.com/projects%22%20alt%3D%22https%3A//universityofwinnipeg.mybalsamiq.com/projects%22%20id%3D%2225%22%20target%3D%22_blank%22/%3E</map>
+        <selectedIndex>1</selectedIndex>
+        <text>Main%0ALogin%0AQuit</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextArea" x="462" y="143" w="332" h="36" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>10066329</color>
+        <size>24</size>
+        <text>Touch%20Main%20with%20the%20Smarker</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

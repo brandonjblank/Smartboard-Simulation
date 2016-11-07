@@ -1,0 +1,61 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1003" measuredH="349" mockupW="840" mockupH="261">
+  <controls>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextArea" x="285" y="128" w="686" h="172" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::RadioButton" x="270" y="300" w="-1" h="-1" measuredW="52" measuredH="22" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>https%3A//universityofwinnipeg.mybalsamiq.com/projects</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22107%2C212%2C159%2C234%22%20href%3D%22https%3A//universityofwinnipeg.mybalsamiq.com/projects%22%20alt%3D%22https%3A//universityofwinnipeg.mybalsamiq.com/projects%22%20id%3D%2218%22%20target%3D%22_blank%22/%3E</map>
+        <text>Power</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextInput" x="337" y="322" w="-1" h="-1" measuredW="40" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>USB</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::TextInput" x="377" y="322" w="-1" h="-1" measuredW="40" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>USB</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::HelpButton" x="270" y="103" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Brandon%20and%20Brandon%20Active%20Project%20Help%20Next%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Help%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Help%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Help%20Next.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22107%2C15%2C125%2C33%22%20href%3D%22Brandon%2520and%2520Brandon%2520Active%2520Project%2520Help%2520Next.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Active%20Project%20Help%20Next%22%20id%3D%2221%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="163" y="88" w="840" h="249" measuredW="200" measuredH="242" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Brandon%20and%20Brandon%20Active%20project%20Settings%20Next%26bm%3BBrandon%20and%20Brandon%20Active%20project%20Settings%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20project%20Settings%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20project%20Settings%20Next.bmml%2CBrandon%20and%20Brandon%20Login%26bm%3BBrandon%20and%20Brandon%20Login.bmml%26bm%3BBrandon%20and%20Brandon%20Login.bmml%26bm%3BBrandon%20and%20Brandon%20Login.bmml%2CBrandon%20and%20Brandon%20Active%20Project%20Search%20Next%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Search%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Search%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Search%20Next.bmml%2CBrandon%20and%20Brandon%20Active%20Project%20Open%20Next%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Open%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Open%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Open%20Next.bmml%2CBrandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Head%20Next%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Head%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Head%20Next.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Head%20Next.bmml%2CBrandon%20and%20Brandon%20Main%20Menu%26bm%3BBrandon%20and%20Brandon%20Main%20Menu.bmml%26bm%3BBrandon%20and%20Brandon%20Main%20Menu.bmml%26bm%3BBrandon%20and%20Brandon%20Main%20Menu.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C20%2C101%2C50%22%20href%3D%22Brandon%2520and%2520Brandon%2520Active%2520project%2520Settings%2520Next.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Active%20project%20Settings%20Next%22%20id%3D%2225%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C48%2C101%2C78%22%20href%3D%22Brandon%2520and%2520Brandon%2520Login.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Login%22%20id%3D%2225%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C76%2C101%2C106%22%20href%3D%22Brandon%2520and%2520Brandon%2520Active%2520Project%2520Search%2520Next.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Active%20Project%20Search%20Next%22%20id%3D%2225%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C104%2C101%2C134%22%20href%3D%22Brandon%2520and%2520Brandon%2520Active%2520Project%2520Open%2520Next.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Active%20Project%20Open%20Next%22%20id%3D%2225%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C132%2C101%2C162%22%20href%3D%22Brandon%2520and%2520Brandon%2520Active%2520Project%2520Current%2520Project%2520Head%2520Next.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Head%20Next%22%20id%3D%2225%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C160%2C101%2C190%22%20href%3D%22Brandon%2520and%2520Brandon%2520Main%2520Menu.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Main%20Menu%22%20id%3D%2225%22/%3E</map>
+        <selectedIndex>4</selectedIndex>
+        <text>Settings%0ALog%20off%0ASearch%0AOpen%0ACurrent%20project%0AQuit</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::FormattingToolbar" x="498" y="265" w="-1" h="-1" measuredW="261" measuredH="29" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::PointyButton" x="555" y="99" w="-1" h="-1" measuredW="57" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <direction>left</direction>
+        <newLayout>true</newLayout>
+        <state>disabled</state>
+        <text>Prev</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::PointyButton" x="612" y="99" w="-1" h="-1" measuredW="58" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <direction>right</direction>
+        <href>Brandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Tail%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Tail.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Tail.bmml%26bm%3BBrandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Tail.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22449%2C11%2C507%2C38%22%20href%3D%22Brandon%2520and%2520Brandon%2520Active%2520Project%2520Current%2520Project%2520Tail.bmml%22%20alt%3D%22Brandon%20and%20Brandon%20Active%20Project%20Current%20Project%20Tail%22%20id%3D%2257%22/%3E</map>
+        <newLayout>true</newLayout>
+        <state>up</state>
+        <text>Next</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
