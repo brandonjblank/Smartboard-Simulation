@@ -8,3 +8,5 @@ This project was made for the University of Winnipeg's ACS 3916 Human Computer I
 4) The ability to open an existing set of slides
 
 The reasoning behind this project was to create a design that would benefit and improve upon existing designs in an education and business environment. 
+
+Included in this Github repository are our original project, and wire-frame mockups using Balsamiq.
