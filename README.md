@@ -3,7 +3,7 @@
 ## About This Project
 This project was created by Brandon Blank and Brandon Ho as the final project for the University of Winnipeg's ACS 3916 Human Computer Interaction class for the 2016 winter semester. We created this project for the purpose of showing off a user interface design that improved upon existing designs in an education and business environment with corresponding program functionality to illustrate the usefulness and ease of use of the design. 
 
-Smarter Board was built in Java using the Java Server Faces framework, with Primefaces and JDBC API for increased functionality and database archival and retrival of data.
+Smarter Board was built in Java using the Java Server Faces framework, with Primefaces and JDBC API for increased functionality and database archival and retrival of data. JavaScript was used to create the canvas and slide navgation. 
 
 ## Features and Functionality
 This project features a fully functional user interface with several functional components such as drawing on a canvas, navigating the canvas slides, and changing the program theme theme. The initial project was designed with the following features in-mind:
